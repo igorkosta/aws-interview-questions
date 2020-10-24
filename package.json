@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "Prepare for your interview at AWS",
+  "main": "index.js",
+  "authors": {
+    "name": "Igor",
+    "email": "igor.kostyuchenok@gmail.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/igorkosta/aws-interview-questions"
+  },
+  "scripts": {
+    "dev": "vuepress dev src --open",
+    "start": "npm run dev",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-default-prefers-color-scheme": "^1.1.1"
+  }
+}
