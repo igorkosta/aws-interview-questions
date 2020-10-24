@@ -10,7 +10,7 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TARGET_REPO: igorkosta/aws-interview-questions
         TARGET_BRANCH: master
         BUILD_SCRIPT: npm install && npm run build
