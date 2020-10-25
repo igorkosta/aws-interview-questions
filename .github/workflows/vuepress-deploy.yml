@@ -10,8 +10,8 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: igorkosta/aws-interview-questions
-        TARGET_BRANCH: master
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: src/.vuepress/dist/
