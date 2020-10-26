@@ -1,9 +1,9 @@
-const { description } = require('../../package')
+const { description, title, repository: { url: repoURL } } = require('../../package')
 
 module.exports = {
   base: '/aws-interview-questions/',
-  title: ' ',
-  description: description,
+  title,
+  description,
   theme: 'default-prefers-color-scheme',
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -12,6 +12,7 @@ module.exports = {
   ],
   themeConfig: {
     defaultTheme: 'dark',
+    logo: '/aws-logo.png',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -23,8 +24,8 @@ module.exports = {
         link: '/base/',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'GitHub',
+        link: repoURL,
       }
     ],
     sidebar: {
@@ -36,6 +37,8 @@ module.exports = {
             '',
             '3-tier-architecture',
             'udp-tcp-ip',
+            'rest',
+            'databases',
           ]
         }
       ],

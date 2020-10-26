@@ -1,6 +1,7 @@
 {
   "name": "y",
   "version": "0.0.1",
+  "title": " ",
   "description": "Prepare for your interview at AWS",
   "main": "index.js",
   "authors": {

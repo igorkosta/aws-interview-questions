@@ -1,12 +1,4 @@
----
-home: true
-heroImage: aws-logo.png
-tagline: Prepare for your interview at AWS
-actionText: Start →
-actionLink: /base/
-footer: This Website is not affiliated with AWS
----
-
+# AWS Interview Questions
 [AWS](https://aws.amazon.com/) is hands down - the biggest cloud provider. It
 offers the biggest range of services compapred to  all other cloud provider
 competitors, like [Google Cloud](https://cloud.google.com/) or [Microsoft Azure](https://azure.microsoft.com/).
@@ -25,4 +17,7 @@ I failed at step 2 and to better prepared for my 2nd attempt decided to create
 this documentation where I will try to post the questions to the answers I was
 asked and help other to prepare for their interview at [AWS](https://aws.amazon.com/).
 
-Happy learning!
+[Happy learning!](https://igorkosta.github.io/aws-interview-questions/)
+
+
+
