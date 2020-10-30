@@ -1,4 +1,8 @@
-const { description, title, repository: { url: repoURL } } = require('../../package')
+const {
+  title,
+  description,
+  repository: { url: repo }
+} = require('../../package')
 
 module.exports = {
   base: '/aws-interview-questions/',
@@ -13,7 +17,7 @@ module.exports = {
   themeConfig: {
     defaultTheme: 'dark',
     logo: '/aws-logo.png',
-    repo: '',
+    repo,
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -22,10 +26,6 @@ module.exports = {
       {
         text: 'Base',
         link: '/base/',
-      },
-      {
-        text: 'GitHub',
-        link: repoURL,
       }
     ],
     sidebar: {
